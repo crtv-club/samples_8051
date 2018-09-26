@@ -6,6 +6,8 @@ void delay(int t) {
 	while(t--);
 }
 
+// interrupt 1 = Timer 0 interrupt
+// other interrupt numbers for Keil C51 - in this table: https://goo.gl/1HMWPt
 void handle_t0_int() interrupt 1 {
 	// counter of overflows, used for prescaling
 	static unsigned char of_counter = 0;
