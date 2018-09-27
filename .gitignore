@@ -32,3 +32,5 @@
 *.dsn
 *.pwi
 
+# Temporary text editor files
+*~
