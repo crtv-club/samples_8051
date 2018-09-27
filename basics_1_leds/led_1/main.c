@@ -1,6 +1,9 @@
 #include <reg52.h> 
-#include "support.h"
 
+void Delay(unsigned int t)
+{
+  while(--t);
+}
 
 void main (void)
 {
