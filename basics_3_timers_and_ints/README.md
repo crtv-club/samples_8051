@@ -12,4 +12,7 @@
 - [timers_and_ints2](./timers_and_ints2/main.c) - точный рассчет периода
   срабатывания таймера, ручная перезагрузка значения таймера (manual reload),
   останов и реконфигурация таймера.
-
+- [AT89C51RE2 datasheet](http://freedatasheets.com/downloads/8-bit.pdf) - подробная документация на
+  AT89C51RE2, описание работы прерываний, таймеров T0 и T1.
+- [AT89S52 datasheet](https://www.keil.com/dd/docs/datashts/atmel/at89s52_ds.pdf) - документация на
+  AT89S52, описание работы таймера T2.
