@@ -70,7 +70,7 @@ void start_timer() {
 }
 
 void stop_timer() {
-	TR0 = 1;
+	TR0 = 0;
 }
 
 void setup_timer() {
