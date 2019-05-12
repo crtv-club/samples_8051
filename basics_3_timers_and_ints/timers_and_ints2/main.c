@@ -22,8 +22,8 @@ void handle_t0_int() interrupt 1 {
 	stop_timer();
 	
 	// set reload value
-	TL0 = PRELOAD >> 8;
-	TH0 = PRELOAD << 8;
+	TL0 = PRELOAD;  // write low 8 bits and strip the rest
+	TH0 = PRELOAD >> 8;  // write hight 8 bits
 	
 	// resume timer
 	start_timer();
